@@ -179,3 +179,9 @@ xcuserdata/
 # Pytest
 .pytest_cache/
 
+# Environment files
+.env
+.env.*
+!.env.example
+
+

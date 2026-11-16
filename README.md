@@ -65,7 +65,13 @@ pip install django djangorestframework djangorestframework-simplejwt pillow requ
 # pip install -r requirements.txt
 ```
 
-### 2. Environment Variables
+### 2. Environment Variables (`.env`)
+
+Copy `backend/.env.example` to `backend/.env` (automatically loaded by `settings.py` and git-ignored):
+
+```bash
+cp backend/.env.example backend/.env
+```
 
 By default, local development and tests run with **SQLite** (`backend/db.sqlite3`) and deterministic local verifiers without requiring external services.
 
