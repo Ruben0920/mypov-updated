@@ -1,0 +1,15 @@
+django>=5.0
+djangorestframework
+djangorestframework-simplejwt
+pillow
+requests
+pusher
+pytest
+pytest-django
+psycopg2-binary
+ultralytics
+numpy<2.0.0
+torch
+transformers
+datasets
+google-generativeai
